@@ -3,7 +3,7 @@
   "info": {
     "title": "Security Insights",
     "description": "API spec for Microsoft.SecurityInsights (Azure Security Insights) resource provider",
-    "version": "2023-04-01-preview"
+    "version": "2023-02-01-preview"
   },
   "host": "management.azure.com",
   "schemes": [
@@ -352,7 +352,87 @@
     },
     "metadataKind": {
       "type": "string",
+<<<<<<< HEAD
       "description": "The kind of content the metadata is for."
+=======
+      "description": "The kind of content the metadata is for.",
+      "enum": [
+        "DataConnector",
+        "DataType",
+        "Workbook",
+        "WorkbookTemplate",
+        "Playbook",
+        "PlaybookTemplate",
+        "AnalyticsRuleTemplate",
+        "AnalyticsRule",
+        "HuntingQuery",
+        "InvestigationQuery",
+        "Parser",
+        "Watchlist",
+        "WatchlistTemplate",
+        "Solution",
+        "AzureFunction",
+        "LogicAppsCustomConnector",
+        "AutomationRule"
+      ],
+      "x-ms-enum": {
+        "modelAsString": true,
+        "name": "kind",
+        "values": [
+          {
+            "value": "DataConnector"
+          },
+          {
+            "value": "DataType"
+          },
+          {
+            "value": "Workbook"
+          },
+          {
+            "value": "WorkbookTemplate"
+          },
+          {
+            "value": "Playbook"
+          },
+          {
+            "value": "PlaybookTemplate"
+          },
+          {
+            "value": "AnalyticsRuleTemplate"
+          },
+          {
+            "value": "AnalyticsRule"
+          },
+          {
+            "value": "HuntingQuery"
+          },
+          {
+            "value": "InvestigationQuery"
+          },
+          {
+            "value": "Parser"
+          },
+          {
+            "value": "Watchlist"
+          },
+          {
+            "value": "WatchlistTemplate"
+          },
+          {
+            "value": "Solution"
+          },
+          {
+            "value": "AzureFunction"
+          },
+          {
+            "value": "LogicAppsCustomConnector"
+          },
+          {
+            "value": "AutomationRule"
+          }
+        ]
+      }
+>>>>>>> 8b8753df9e (Adds base for updating Microsoft.SecurityInsights from version preview/2023-02-01-preview to version 2023-04-01-preview)
     },
     "metadataSource": {
       "description": "The original source of the content item, where it comes from.",
@@ -816,7 +896,10 @@
       "in": "path",
       "name": "metadataName",
       "required": true,
+<<<<<<< HEAD
       "pattern": "^\\S+$",
+=======
+>>>>>>> 8b8753df9e (Adds base for updating Microsoft.SecurityInsights from version preview/2023-02-01-preview to version 2023-04-01-preview)
       "type": "string",
       "x-ms-parameter-location": "method"
     }
