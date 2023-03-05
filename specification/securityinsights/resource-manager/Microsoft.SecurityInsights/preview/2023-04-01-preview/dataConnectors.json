@@ -1521,9 +1521,9 @@
       },
       "type": "object",
       "required": [
-        "DataCollectionEndpoint",
-        "DataCollectionRuleImmutableId",
-        "StreamName"
+        "dataCollectionEndpoint",
+        "dataCollectionRuleImmutableId",
+        "streamName"
       ]
     },
     "DataConnector": {
