@@ -1445,7 +1445,7 @@
           "$ref": "#/definitions/GCPRequestProperties",
           "description": "The request section of the connector."
         },
-        "DcrConfig": {
+        "dcrConfig": {
           "$ref": "#/definitions/DCRConfiguration",
           "description": "The configuration of the destination of the data."
         }
@@ -1506,15 +1506,15 @@
     "DCRConfiguration": {
       "description": "The configuration of the destination of the data.",
       "properties":{
-        "DataCollectionEndpoint": {
+        "dataCollectionEndpoint": {
           "description": "Represents the data collection ingestion endpoint in log analytics.",
           "type": "string"
         },
-        "DataCollectionRuleImmutableId": {
+        "dataCollectionRuleImmutableId": {
           "description": "The data collection rule immutable id, the rule defines the transformation and data destination.",
           "type": "string"
         },
-        "StreamName": {
+        "streamName": {
           "description": "The stream we are sending the data to.",
           "type": "string"
         }
