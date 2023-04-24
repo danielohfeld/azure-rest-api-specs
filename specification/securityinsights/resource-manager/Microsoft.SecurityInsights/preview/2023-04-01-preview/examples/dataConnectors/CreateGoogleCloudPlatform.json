@@ -10,16 +10,16 @@
       "properties": {
         "connectorDefinitionName": "GcpConnector",
         "auth": {
-            "serviceAccountEmail": "sentinel-service-account@project-id.iam.gserviceaccount.com",
-            "projectNumber": "123456789012",
-            "workloadIdentityProviderId": "sentinel-identity-provider",
-            "type": "GCP"
+          "serviceAccountEmail": "sentinel-service-account@project-id.iam.gserviceaccount.com",
+          "projectNumber": "123456789012",
+          "workloadIdentityProviderId": "sentinel-identity-provider",
+          "type": "GCP"
         },
         "request": {
-            "projectId": "project-id",
-            "subscriptionNames": [
-                "sentinel-subscription"
-            ]
+          "projectId": "project-id",
+          "subscriptionNames": [
+            "sentinel-subscription"
+          ]
         },
         "dcrConfig": {
           "dataCollectionEndpoint": "https://microsoft-sentinel-datacollectionendpoint-123m.westeurope-1.ingest.monitor.azure.com",
@@ -40,16 +40,16 @@
         "properties": {
           "connectorDefinitionName": "GcpConnector",
           "auth": {
-              "serviceAccountEmail": "sentinel-service-account@project-id.iam.gserviceaccount.com",
-              "projectNumber": "123456789012",
-              "workloadIdentityProviderId": "sentinel-identity-provider",
-              "type": "GCP"
+            "serviceAccountEmail": "sentinel-service-account@project-id.iam.gserviceaccount.com",
+            "projectNumber": "123456789012",
+            "workloadIdentityProviderId": "sentinel-identity-provider",
+            "type": "GCP"
           },
           "request": {
-              "projectId": "project-id",
-              "subscriptionNames": [
-                  "sentinel-subscription"
-              ]
+            "projectId": "project-id",
+            "subscriptionNames": [
+              "sentinel-subscription"
+            ]
           },
           "dcrConfig": {
             "dataCollectionEndpoint": "https://microsoft-sentinel-datacollectionendpoint-123m.westeurope-1.ingest.monitor.azure.com",
@@ -69,16 +69,16 @@
         "properties": {
           "connectorDefinitionName": "GcpConnector",
           "auth": {
-              "serviceAccountEmail": "sentinel-service-account@project-id.iam.gserviceaccount.com",
-              "projectNumber": "123456789012",
-              "workloadIdentityProviderId": "sentinel-identity-provider",
-              "type": "GCP"
+            "serviceAccountEmail": "sentinel-service-account@project-id.iam.gserviceaccount.com",
+            "projectNumber": "123456789012",
+            "workloadIdentityProviderId": "sentinel-identity-provider",
+            "type": "GCP"
           },
           "request": {
-              "projectId": "project-id",
-              "subscriptionNames": [
-                  "sentinel-subscription"
-              ]
+            "projectId": "project-id",
+            "subscriptionNames": [
+              "sentinel-subscription"
+            ]
           },
           "dcrConfig": {
             "dataCollectionEndpoint": "https://microsoft-sentinel-datacollectionendpoint-123m.westeurope-1.ingest.monitor.azure.com",
@@ -90,4 +90,3 @@
     }
   }
 }
-
